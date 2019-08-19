@@ -1,4 +1,4 @@
-package theblackdiamonds.com
+package theblackdiamonds.com.Activities
 
 import android.os.Bundle
 import android.view.View
@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import theblackdiamonds.com.R
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
