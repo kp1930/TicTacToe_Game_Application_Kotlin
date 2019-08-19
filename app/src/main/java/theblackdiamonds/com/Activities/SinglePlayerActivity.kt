@@ -6,19 +6,19 @@ import android.widget.GridLayout
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.activity_single_player.*
 import theblackdiamonds.com.Models.Board
 import theblackdiamonds.com.Models.Cell
 import theblackdiamonds.com.R
 
-class Main2Activity : AppCompatActivity() {
+class SinglePlayerActivity : AppCompatActivity() {
 
     private val boardCells = Array(3) { arrayOfNulls<ImageView>(3) }
     var board = Board()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_single_player)
 
         loadBoard()
 

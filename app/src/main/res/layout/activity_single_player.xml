@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:background="@color/colorBackground"
         android:layout_height="match_parent"
-        tools:context=".Activities.Main2Activity">
+        tools:context=".Activities.SinglePlayerActivity">
 
     <TextView
             android:layout_marginBottom="25dp"
@@ -39,7 +39,6 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:id="@+id/button_restart"
-            android:textAllCaps="false"
             android:text="Restart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
