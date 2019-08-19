@@ -1,4 +1,4 @@
-package theblackdiamonds.com.Activities
+package theblackdiamonds.com.activities
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_single_player.*
-import theblackdiamonds.com.Models.Board
-import theblackdiamonds.com.Models.Cell
 import theblackdiamonds.com.R
+import theblackdiamonds.com.models.Board
+import theblackdiamonds.com.models.Cell
 
 class SinglePlayerActivity : AppCompatActivity() {
 
@@ -95,9 +95,9 @@ class SinglePlayerActivity : AppCompatActivity() {
             }
 
             when {
-                board.hasComputerWon() -> text_view_result.text = "Computer Won"
-                board.hasPlayerWon() -> text_view_result.text = "Player Won"
-                board.isGameOver -> text_view_result.text = "Game Tied"
+                board.hasComputerWon() -> text_view_result.text = R.string.computer_won.toString()
+                board.hasPlayerWon() -> text_view_result.text = R.string.player_won.toString()
+                board.isGameOver -> text_view_result.text = R.string.game_tied.toString()
             }
         }
     }

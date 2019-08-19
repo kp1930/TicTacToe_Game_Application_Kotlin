@@ -12,7 +12,7 @@
             android:theme="@style/AppTheme"
             tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
-        <activity android:name=".Activities.MainActivity">
+        <activity android:name=".activities.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,8 +21,8 @@
 
         </activity>
 
-        <activity android:name=".Activities.SinglePlayerActivity"/>
-        <activity android:name=".Activities.MultiPlayerActivity"/>
+        <activity android:name=".activities.SinglePlayerActivity"/>
+        <activity android:name=".activities.MultiPlayerActivity"/>
 
     </application>
 

@@ -1,4 +1,4 @@
-package theblackdiamonds.com.Models
+package theblackdiamonds.com.models
 
 import kotlin.math.max
 import kotlin.math.min

@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:background="@color/colorBackground"
         android:layout_height="match_parent"
-        tools:context=".Activities.SinglePlayerActivity">
+        tools:context=".activities.SinglePlayerActivity">
 
     <TextView
             android:layout_marginBottom="25dp"
@@ -41,15 +41,7 @@
             android:id="@+id/button_restart"
             android:text="Restart"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"/>
 
 </RelativeLayout>
-
-        <!-- <ImageView
-                    android:id="@+id/image_view_name"
-                    android:layout_marginTop="20dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_alignParentTop="true"
-                    android:background="@drawable/app_name"
-                    android:layout_width="280dp"
-                    android:layout_height="55dp"/>-->
