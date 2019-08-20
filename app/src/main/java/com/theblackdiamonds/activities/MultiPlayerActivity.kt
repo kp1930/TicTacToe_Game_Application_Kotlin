@@ -1,12 +1,13 @@
-package theblackdiamonds.com.Activities
+package com.theblackdiamonds.activities
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import theblackdiamonds.com.R
+import com.theblackdiamonds.R
 
 class MultiPlayerActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -113,6 +114,7 @@ class MultiPlayerActivity : AppCompatActivity(), View.OnClickListener {
         resetBoard()
     }
 
+    @SuppressLint("SetTextI18n")
     private fun updatePointsText() {
         textViewPlayer1!!.text = "Player 1: $player1Points"
         textViewPlayer2!!.text = "Player 2: $player2Points"

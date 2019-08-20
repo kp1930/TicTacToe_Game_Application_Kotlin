@@ -1,4 +1,4 @@
-package theblackdiamonds.com.Models
+package com.theblackdiamonds.models
 
 /**
  * Created by Kush Pandya on 8/19/2019.

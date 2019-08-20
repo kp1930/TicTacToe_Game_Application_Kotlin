@@ -1,10 +1,10 @@
-package theblackdiamonds.com.Activities
+package com.theblackdiamonds.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.theblackdiamonds.R
 import kotlinx.android.synthetic.main.activity_main.*
-import theblackdiamonds.com.R
 
 class MainActivity : AppCompatActivity() {
 

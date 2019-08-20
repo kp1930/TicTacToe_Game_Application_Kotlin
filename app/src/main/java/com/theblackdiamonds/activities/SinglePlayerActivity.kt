@@ -1,4 +1,4 @@
-package theblackdiamonds.com.activities
+package com.theblackdiamonds.activities
 
 import android.os.Bundle
 import android.view.View
@@ -6,10 +6,10 @@ import android.widget.GridLayout
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.theblackdiamonds.R
+import com.theblackdiamonds.models.Board
+import com.theblackdiamonds.models.Cell
 import kotlinx.android.synthetic.main.activity_single_player.*
-import theblackdiamonds.com.R
-import theblackdiamonds.com.models.Board
-import theblackdiamonds.com.models.Cell
 
 class SinglePlayerActivity : AppCompatActivity() {
 
